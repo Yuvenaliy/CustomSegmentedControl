@@ -13,6 +13,7 @@
 		CE91A0FE26A05CF80043DE00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE91A0FC26A05CF80043DE00 /* Main.storyboard */; };
 		CE91A10026A05D010043DE00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE91A0FF26A05D010043DE00 /* Assets.xcassets */; };
 		CE91A10326A05D010043DE00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE91A10126A05D010043DE00 /* LaunchScreen.storyboard */; };
+		CE91A10B26A081760043DE00 /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91A10A26A081760043DE00 /* CustomSegmentedControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CE91A0FF26A05D010043DE00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE91A10226A05D010043DE00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE91A10426A05D010043DE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE91A10A26A081760043DE00 /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		CE91A0F526A05CF80043DE00 /* TestAppCustomSegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
+				CE91A10C26A085FC0043DE00 /* Design */,
 				CE91A0F626A05CF80043DE00 /* AppDelegate.swift */,
 				CE91A0F826A05CF80043DE00 /* SceneDelegate.swift */,
 				CE91A0FA26A05CF80043DE00 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				CE91A10426A05D010043DE00 /* Info.plist */,
 			);
 			path = TestAppCustomSegmentedControl;
+			sourceTree = "<group>";
+		};
+		CE91A10C26A085FC0043DE00 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				CE91A10A26A081760043DE00 /* CustomSegmentedControl.swift */,
+			);
+			path = Design;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 				CE91A0FB26A05CF80043DE00 /* ViewController.swift in Sources */,
 				CE91A0F726A05CF80043DE00 /* AppDelegate.swift in Sources */,
 				CE91A0F926A05CF80043DE00 /* SceneDelegate.swift in Sources */,
+				CE91A10B26A081760043DE00 /* CustomSegmentedControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
